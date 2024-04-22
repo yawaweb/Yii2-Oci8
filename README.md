@@ -1,23 +1,17 @@
-# Yii2-Oci8
+# Yii2-Oci8 for PHP 8+
 Yii2 OCI8 extension which uses well written [yajra/pdo-via-oci8](https://github.com/yajra/pdo-via-oci8) 
 with optional full table schema caching. Supported PHP8.
 
-**Supported**
-- Yii 2.x;
-- yajra/pdo-via-oci8 ^3;
-- \ PHP ^8.0.
+**Requirements**
+- Yii ^2.x;
+- yajra/pdo-via-oci8: ^3;
+- PHP ^8.0.
 
 **Installation**
 
-Add to your `composer.json` file:
-
 ```
-   "require": {
-     "yawaweb/yii2-oci8": "1.*"
-   }
+composer require yawaweb/yii2-oci8
 ```
-
-And then run `composer update`.
 
 **Yii2 configuration example for an Oracle database**
 
